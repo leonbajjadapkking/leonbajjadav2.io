@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="scripts/java.js"></script>
+</head>
+<body>
+    <h1>Contact Page</h1>
+
+    <nav>
+        <a href="index.html">Index</a>
+        <a href="about me.html">About me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <form>
+        <label>Full Name</label><br><br>
+        <input id="name" placeholder="Your full name" type="text"><br><br>
+
+        <label>Email</label><br><br>
+        <input id="email" placeholder="Your email" type="text"><br><br>
+
+        <label>Contact Number</label><br><br>
+        <input id="number" placeholder="Your contact number" type="text"><br><br>
+
+        <label>Comment</label><br><br>
+        <textarea id="comment" placeholder="your comment here.."></textarea><br><br>
+
+        <button onclick="validateForm()" id="button" type="submit">Send</button> <br><br>
+
+
+    </form>
+    
+    <footer>
+        <button  onclick="topFunction()">TOP</button>
+    </footer>
+</body>
+</html>
